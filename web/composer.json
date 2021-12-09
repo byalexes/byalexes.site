@@ -39,6 +39,7 @@
         "symfony/translation": "^6.0",
         "symfony/twig-bundle": "^6.0",
         "symfony/validator": "^6.0",
+        "symfony/var-dumper": "6.0.*",
         "symfony/webpack-encore-bundle": "^1.13",
         "symfony/yaml": "^6.0",
         "tgalopin/html-sanitizer-bundle": "^1.4",

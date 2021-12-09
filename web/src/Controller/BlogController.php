@@ -48,7 +48,7 @@ class BlogController extends AbstractController
         Route('/page/{page<[1-9]\d*>}', defaults: ['_format' => 'html'], methods: ['GET'], name: 'blog_index_paginated'),
     ]
     #[Cache(smaxage: 10)]
-    public function index(Request $request, int $page, string $_format, PostRepository $posts, TagRepository $tags): Response
+    public function index(Request $request, PostRepository $posts, TagRepository $tags, int $page = 1, string $_format = 'html',): Response
     {
         $tag = null;
         if ($request->query->has('tag')) {
