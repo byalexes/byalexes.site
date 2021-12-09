@@ -34,3 +34,6 @@ etc/ssl/
 /.idea/modules.xml
 /.idea/vcs.xml
 /data/
+/.idea/dataSources.local.xml
+/.idea/php.xml
+/.idea/symfony2.xml
